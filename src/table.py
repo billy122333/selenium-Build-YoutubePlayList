@@ -3,7 +3,7 @@ import mysql.connector
 
 def create_table(table_name):
     conn = mysql.connector.connect(host='127.0.0.1', port='3306', user='root',
-                                   password='Qrs133666!', database='rank_list', charset='utf8')
+                                   password='MYSQLPASSWORD', database='rank_list', charset='utf8')
     cur = conn.cursor()
     sql = "CREATE TABLE IF NOT EXISTS {} (song_rank CHAR(10) ,\
                                 song_name  CHAR(50) NOT NULL UNIQUE,\
