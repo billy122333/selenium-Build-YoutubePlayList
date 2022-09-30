@@ -15,7 +15,7 @@ import kkbox
 GMAIL = 'YOUR GMAIL'
 PASSWORD = 'YOUR PASSWORD'
 conn = mysql.connector.connect(host='127.0.0.1', port='3306', user='root',
-                               password='Qrs133666!', database='rank_list', charset='utf8')
+                               password='###', database='rank_list', charset='utf8')
 cur = conn.cursor()
 
 if __name__ == '__main__':
